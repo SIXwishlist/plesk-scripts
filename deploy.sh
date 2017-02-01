@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # User-Data Script for DigitalOcean, etc
+# ...or `wget https://raw.githubusercontent.com/ayamshanov/plesk-scripts/master/deploy.sh && bash ./deploy.sh`
 
 # https://docs.plesk.com/release-notes/onyx/hardware-requirements/
 mem=`free -t -g | grep Total | awk '{ print $2 }'`
